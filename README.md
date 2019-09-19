@@ -1,15 +1,15 @@
 ### DEPLOYMENT OF ANGULAR PROJECT
 + Install angular-cli-ghpages
-   run npm i angular-cli-ghpages --save-dev
+   + run npm i angular-cli-ghpages --save-dev
 * This command has installed angular-cli-ghpages globally in our operating system
 
 + Run build our app for production mode
-    run <ng build --prod --base-href "https://GithubUserName.github.io/GithubRepoName/">
+ * run <ng build --prod --base-href "https://GithubUserName.github.io/GithubRepoName/">
 
 + Deploy to gh-pages
-    It's now time to use angular-cli-ghpages
-        run<npx angular-cli-ghpages --dir=dist/Project-name>
-* open the dist folder and see the name of your application 
+    * It's now time to use angular-cli-ghpages
+       * run<npx angular-cli-ghpages --dir=dist/Project-name>
+            * open the dist folder and see the name of your application 
 
 
 
